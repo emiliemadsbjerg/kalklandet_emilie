@@ -1,0 +1,362 @@
+@font-face {
+	font-family: LimeStone_light;
+	src: url(font/Limestone_light.otf);
+}
+
+body {
+	border: 0;
+	font-family: limestone;
+	margin: auto;
+	max-width: 1600px;
+}
+
+
+/*       header       */
+/* MENU START */
+.logo {
+	height: 100px;
+
+
+}
+
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #414141;
+	color: white;
+	top: 0;
+	max-width: 1700px;
+	font-family: LimeStone_light;
+
+
+
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 2vw;
+
+
+
+
+}
+
+li a:visited {
+	color: white;
+}
+
+li a:hover {
+	background-color: grey;
+	transition: 0.5s;
+	color: white;
+
+}
+
+/*MENU SLUT*/
+/*BURGERMENU*/
+#menuknap {
+	text-align: left;
+	font-size: 3rem;
+	cursor: pointer;
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+
+#menu {
+	transition: transform 0.3s;
+	list-style-type: none;
+	transform-origin: top left;
+
+
+	padding-bottom: 20px;
+	background-color: rgba(226, 226, 226, 0.58);
+	width: 200px;
+}
+
+#burger {
+	width: 200px;
+	z-index: 2;
+	margin-left: 20px;
+}
+
+#menu li {
+	margin: 10px;
+	display: block;
+
+
+
+}
+
+#menu a {
+	font-size: 1.2rem;
+	text-decoration: none;
+	color: #000000;
+	text-align: left;
+
+
+}
+
+#menu a:hover {
+	color: white;
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+/*MEDIA*/
+
+@media only screen and (min-width: 900px) {
+
+
+	#burger {
+		display: none;
+	}
+
+	.navbar {
+		display: block
+	}
+}
+
+/* MEDIA SLUT */
+
+
+/*BURGERMENU SLUT*/
+
+
+
+/*       header slut      */
+
+
+/*       besøg os       */
+
+#splash {}
+
+#besoeg-os {
+	margin: 5vw;
+	line-height: 22px;
+}
+
+/*       besøg os slut       */
+
+
+/*       undervisning       */
+.splash {
+	width: 100%;
+}
+
+.text {
+	text-align: center;
+	font-family: limestone_light;
+}
+
+#text {
+	font-family: limestone_light;
+}
+
+#overskrift {
+	font-size: 5vw;
+	margin: 0;
+}
+
+.undervisnings_boks {
+	display: flex;
+	background-color: #bebebe;
+	max-width: 1600px;
+	margin-top: 60px;
+	height: 600px;
+
+}
+
+.muligheder {
+	margin-top: 150px;
+	width: 80%;
+	font-family: limestone_light;
+	flex-wrap: wrap;
+	background-color: white;
+	height: 300px;
+	padding: 20px;
+
+}
+
+
+
+.fag {
+	width: 100%;
+	font-family: limestone_light;
+	flex-wrap: wrap;
+	color: white;
+	padding: 40px;
+
+
+}
+
+.steder {
+	width: 100%;
+	font-family: limestone_light;
+	flex-wrap: wrap;
+	color: white;
+	padding: 40px;
+
+
+}
+
+.overskrift {
+	text-align: center;
+	font-family: limestone_light;
+	font-size: 5vw;
+}
+
+.naturfag {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: limestone_light;
+
+
+
+
+}
+
+.geografi {
+	max-width: 500px;
+	padding: 20px;
+
+
+}
+
+.natgeo {
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+.natgrund {
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+.natfaggruppe {
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+.hissamf {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: limestone_light;
+
+
+
+
+}
+
+.historie {
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+.samfundsfag {
+	max-width: 500px;
+	padding: 20px;
+
+}
+
+/*       undervisning slut      */
+
+
+
+
+/*       billetter      */
+
+#billetter {
+	margin: 5vw;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 2rem;
+	line-height: 10vh;
+
+}
+
+a:hover {
+	color: dimgrey;
+}
+
+a:visited {
+	color: rebeccapurple;
+}
+
+a:active {
+	color: yellow;
+}
+
+/*       billetter slut      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bestil {}
+
+#gaa-til-betaling {
+	background-image: url(svg/betaling.svg);
+	background-repeat: no-repeat;
+	width: 50vw;
+	height: 10vh;
+}
+
+input {
+	width: 60vw;
+	height: 4vh;
+}
+
+
+#ordre {}
+
+
+/*       footer       */
+footer {
+	margin: auto;
+	max-width: 1550px;
+	padding: 20px;
+	width: 100%;
+	background-color: #adadad;
+	font-family: limestone;
+	text-align: center;
+
+}
+
+/*       footer slut       */
